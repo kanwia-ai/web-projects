@@ -4,10 +4,11 @@ A collection of 20 Claude Agent Skills from the [Superpowers plugin](https://git
 
 ## How to Import
 
-1. Download the zip file for the skill you want
-2. Go to [claude.ai](https://claude.ai) and open a Project
-3. In Project Knowledge, upload the skill folder
-4. The skill will be available in all chats within that project
+1. Download the zip file for the skill you want (or zip the skill folder yourself)
+2. Go to [claude.ai](https://claude.ai)
+3. Navigate to **Settings > Capabilities > Skills**
+4. Upload the zip file
+5. The skill will be available across your conversations
 
 ## Folder Structure
 
@@ -74,9 +75,11 @@ skill-name/
 | testing-skills-with-subagents | - | `CLAUDE_MD_TESTING.md` | - |
 | writing-skills | - | `anthropic-best-practices.md`, `persuasion-principles.md` | `graphviz-conventions.dot` |
 
-## Zip Files
+## Zip Files (Ready to Upload)
 
-Pre-packaged zip files are available in the `../superpowers-skills-zips/` directory for easy import.
+Pre-packaged zip files are available in the `../superpowers-skills-zips/` directory. These are ready to upload directly to Claude's Skills section.
+
+**Important**: Skills must be uploaded as zip files. If downloading individual skill folders from this repo, zip them first before uploading.
 
 ## Source
 
