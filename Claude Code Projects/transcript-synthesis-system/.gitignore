@@ -1,0 +1,42 @@
+# Environment variables - NEVER commit API keys!
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (these can be regenerated)
+transcripts_normalized/
+frameworks_discovered/
+frameworks_synthesized/
+playbooks_generated/
+
+# Keep raw transcripts out of git (too large)
+transcripts_raw/
+
+# Temporary directories
+transcripts_taylor_temp/
+transcripts_ai_temp/
+
+# Old framework files (replaced by category-specific versions)
+frameworks_discovered/
+frameworks_synthesized/frameworks_final.json
